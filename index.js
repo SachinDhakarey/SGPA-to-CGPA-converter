@@ -36,9 +36,9 @@ function calculateCGPA() {
 
   var previousCGPA = parseFloat(document.getElementById('previous-cgpa').value) || 0.0;
 
-  var creditHoursList = [20, 20, 22, 21, 22];
+  var creditHoursList = [20, 20, 22, 21, 22, 21];
   var totalCreditPoints = 0;
-  var totalCreditHours = 105;
+  var totalCreditHours = 126;
 
   for (var j = 0; j < sgpaList.length; j++) {
     var creditPoints = sgpaList[j] * creditHoursList[j];
